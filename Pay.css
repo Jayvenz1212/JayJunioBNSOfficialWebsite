@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at center, #244a5a 0%, #0b2733 45%, #03141c 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-card {
+    width: 380px;
+    background: #020b10;
+    border-radius: 18px;
+    padding: 28px 24px;
+    text-align: center;
+    box-shadow: 0 0 35px rgba(0, 255, 255, 0.12);
+}
+
+.checkout-card h1 {
+    color: orange;
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.selected-item-box {
+    background: #1a1f24;
+    border-radius: 14px;
+    padding: 14px;
+    margin-bottom: 22px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.selected-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    border: 2px solid gold;
+}
+
+.qr-title {
+    color: aqua;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.qr-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.35);
+}
+
+input {
+    width: 100%;
+    padding: 14px 16px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    background: #d9d9d9;
+    color: #333;
+}
+
+.checkout-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.confirm-btn,
+.back-btn {
+    flex: 1;
+    padding: 13px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.confirm-btn {
+    background: orange;
+    color: black;
+}
+
+.confirm-btn:hover {
+    background: gold;
+    transform: scale(1.03);
+}
+
+.back-btn {
+    
+    font-family: Arial, sans-serif;
+    background: black;
+    color: gold;
+}
+
+.back-btn:hover {
+    background: black;
+    transform: scale(1.03);
+}

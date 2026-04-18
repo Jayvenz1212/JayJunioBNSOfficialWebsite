@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="Pay.css">
+</head>
+<body>
+
+    <div class="checkout-card">
+        <h1>GCash Checkout 🛒</h1>
+
+        <div class="selected-item-box">
+            <img id="item-img" class="selected-img" src="" alt="Selected Item">
+            <p id="item">Item:</p>
+            <p id="price">Price:</p>
+        </div>
+
+        <h3 class="qr-title">Scan to Pay via GCash</h3>
+        <img src="QR.jpg" class="qr-img" alt="GCash QR Code">
+
+        <input type="text" id="facebook" placeholder="👤 Enter your Facebook">
+        <input type="text" id="roblox" placeholder="👤 Enter your Roblox Name">
+        <input type="text" id="gcash" placeholder="📱 Enter your GCash number">
+
+        <div class="checkout-buttons">
+            <button class="confirm-btn" onclick="confirmOrder()">Confirm Purchase</button>
+            <button class="back-btn" onclick="goBack()">Back</button>
+        </div>
+    </div>
+
+    <script src="Pay.js"></script>
+</body>
+</html>

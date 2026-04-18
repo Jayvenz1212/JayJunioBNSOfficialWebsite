@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background: url("WelcomeBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero{
+    min-height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.hero h1{
+    margin: 0 0 15px;
+    font-size: 58px;
+    color: orange;
+}
+
+.hero p{
+    margin: 0 0 25px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.Shop-btn{
+    padding: 14px 32px;
+    background: orange;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Shop-btn:hover{
+    background: gold;
+    transform: scale(1.05);
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;   /* 🔥 center everything */
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: gold;   /* 🔥 change text color */
+    margin: 0;
+}
+
+.logo-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 8px rgba(255,165,0,0.6)); /* glow */
+}
